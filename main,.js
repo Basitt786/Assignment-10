@@ -1,13 +1,13 @@
 
-let array = ['Apple','Banana'];
+let items = ['Apple','Banana'];
 
 
 function add(str) {
-   array.push(str);
+   items.push(str);
 }
 
 function remove() {
-   array.pop();
+   items.pop();
 }
 
 
@@ -20,7 +20,7 @@ function reverse(str) {
    return str.split('').reverse().join('');
 }
 
-console.log(`Array: ${array}`);
+console.log(`items: ${items}`);
 console.log(`Last char of 'Apple': ${lastChar('Apple')}`);
 console.log(`Last char of 'Banana': ${lastChar('Banana')}`);
 console.log(`Reverse of 'Apple': ${reverse('Apple')}`);
