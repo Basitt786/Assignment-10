@@ -1,20 +1,28 @@
 
-let items = ['Apple','Banana'];
-
+let items = ['Apple', 'banana']
 
 function add(str) {
-   items.push(str);
-}
 
-function remove() {
-   items.pop();
+   if (!items.includes(str)) {
+      items.push(str);
+   }
 }
+add()
 
+function remove(str) {
+   let array = items.indexOf(str);
+   if (array !== -1) {
+      items.splice(array, 1);
+   }
+}
+remove();
 
 function lastChar(str) {
-   return str.charAt(str.length - 1);
+   if (str.length === 0) {
+      return null;
+   }
+   return str[str.length - 1];
 }
-
 
 function reverse(str) {
    return str.split('').reverse().join('');
