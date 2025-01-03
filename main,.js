@@ -29,8 +29,8 @@ function reverse(str) {
 }
 
 console.log(`items: ${items}`);
-console.log(`Last char of 'Apple': ${lastChar('Apple')}`);
-console.log(`Last char of 'Banana': ${lastChar('Banana')}`);
-console.log(`Reverse of 'Apple': ${reverse('Apple')}`);
-console.log(`Reverse of 'Banana': ${reverse('Banana')}`);
+console.log(`Last char 'Apple': ${lastChar('Apple')}`);
+console.log(`Last char 'Banana': ${lastChar('Banana')}`);
+console.log(`Reverse in  'Apple': ${reverse('Apple')}`);
+console.log(`Reverse in  'Banana': ${reverse('Banana')}`);
 
